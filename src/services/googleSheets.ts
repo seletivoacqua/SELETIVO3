@@ -2,7 +2,7 @@ import { cacheService } from './cacheService';
 import { requestDeduplicator } from './requestDeduplication';
 import { performanceMonitor } from './performanceMonitor';
 
-const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbxfl0gWq3-dnZmYcz5AIHkpOyC1XdRb8QdaMRQTQZnn5sqyQZvV3qhCevhXuFHGYBk0/exec';
+const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyboIYNqCssFkSd288X9sTXPhpMPOfwJFY_C_333cKC8K2WHsU9RC0VnRxJMLUNK-UtDg/exec';
 
 interface GoogleSheetsResponse {
   success: boolean;
