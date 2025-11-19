@@ -81,7 +81,7 @@ class GoogleSheetsService {
   }
 }
 
-const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwRZ7vLEm4n8iha2GJSnIfCEjhHejRLme-OkIkp_qu6/dev';
+const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyboIYNqCssFkSd288X9sTXPhpMPOfwJFY_C_333cKC8K2WHsU9RC0VnRxJMLUNK-UtDg/exec';
 const sheetsService = new GoogleSheetsService(SCRIPT_URL);
 
 export async function getUsers(): Promise<User[]> {
