@@ -49,7 +49,7 @@ class GoogleSheetsService {
   private scriptUrl: string;
 
   constructor() {
-    this.scriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwRZ7vLEm4n8iha2GJSnIfCEjhHejRLme-OkIkp_qu6/dev';
+    this.scriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyboIYNqCssFkSd288X9sTXPhpMPOfwJFY_C_333cKC8K2WHsU9RC0VnRxJMLUNK-UtDg/exec';
   }
 
   async fetchData(action: string, data?: any): Promise<any> {
