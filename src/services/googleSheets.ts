@@ -289,3 +289,6 @@ export const googleSheetsService = {
     return makeRequest('getAnalysts');
   }
 };
+
+export const fetchCandidates = googleSheetsService.fetchCandidates.bind(googleSheetsService);
+export const updateCandidateStatus = googleSheetsService.updateCandidateStatus.bind(googleSheetsService);
